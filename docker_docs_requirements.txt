@@ -1,0 +1,8 @@
+toml >= 0.10.2
+opencv-python-headless >= 4.7.0.72
+Pillow >= 9.5.0
+tqdm >= 4.65.0
+termcolor >= 1.1.0
+colorama >= 0.4.3
+Sphinx>=6.0.0
+sphinx-rtd-theme>=1.2.0

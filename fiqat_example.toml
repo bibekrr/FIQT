@@ -1,0 +1,63 @@
+# # TODO Please set the "models" path to the dependencies directory of your local toolkit installation.
+
+# # The general directory of the model files required by various methods included in the toolkit.
+# # You can also set individual paths if your dependencies are not all stored under this directory, see the settings below.
+models = "/path/to/fiqat/dependencies/"
+
+# # If set, this directory will be used (and first created if necessary) for the fiqat.temp module functions.
+# temp_dir = "/a/temporary/file/directory"
+
+[tqdm]
+
+# # If set, this specifies the default value for the "colour" parameter in the fiqat.term.tqdm helper function.
+# colour = "#ffffff"
+
+[insightface]
+
+# # If the root path is not set,
+# # then the path will be 'insightface' appended to the general "models" path set above.
+# # If you previously already used the InsightFace Python package https://github.com/deepinsight/insightface/tree/master/python-package
+# # and downloaded models to that package's default directory, you can set that default directory here as well (~/.insightface).
+# root = "/path/to/fiqat/dependencies/insightface"
+
+[dlib]
+
+# # If the landmark_predictor path is not set,
+# # then the path will be 'dlib/shape_predictor_68_face_landmarks.dat' appended to the general "models" path set above.
+# landmark_predictor = "/path/to/fiqat/dependencies/dlib/shape_predictor_68_face_landmarks.dat"
+
+[crfiqa]
+
+# # If the [crfiqa] models path is not set,
+# # then the path will be 'crfiqa' appended to the general "models" path set above.
+# models = "/path/to/fiqat/dependencies/crfiqa"
+
+[faceqnet]
+
+# # If the [faceqnet] models path is not set,
+# # then the path will be 'faceqnet' appended to the general "models" path set above.
+# models = "/path/to/fiqat/dependencies/faceqnet"
+
+[retinaface]
+
+# # If insightface_path is not set,
+# # then the path will be 'insightface-f89ecaaa54' appended to the general "models" path set above.
+# insightface_path = "/path/to/fiqat/dependencies/insightface-f89ecaaa54"
+
+[mtcnn]
+
+# # If insightface_path is not set,
+# # then the path will be 'insightface-60bb5829b1' appended to the general "models" path set above.
+# insightface_path = "/path/to/fiqat/dependencies/insightface-60bb5829b1"
+
+[arcface]
+
+# # If insightface_path is not set,
+# # then the path will be 'insightface-60bb5829b1' appended to the general "models" path set above.
+# insightface_path = "/path/to/fiqat/dependencies/insightface-60bb5829b1"
+
+[magface]
+
+# # If the [magface] models path is not set,
+# # then the path will be 'MagFace' appended to the general "models" path set above.
+# models = "/path/to/fiqat/dependencies/MagFace"

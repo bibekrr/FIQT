@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: fiqat
+Version: 0.0.13
+License-File: LICENSE
+Requires-Dist: toml>=0.10.2
+Requires-Dist: opencv-python>=4.7.0.72
+Requires-Dist: Pillow>=9.5.0
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: termcolor>=1.1.0
+Requires-Dist: colorama>=0.4.3
+Dynamic: license-file
